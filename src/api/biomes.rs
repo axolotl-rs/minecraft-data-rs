@@ -4,7 +4,7 @@ use crate::models::version::Version;
 use crate::DataResult;
 use std::collections::HashMap;
 use std::sync::Arc;
-
+/// Biomes
 pub struct Biomes {
     version: Arc<Version>,
 }

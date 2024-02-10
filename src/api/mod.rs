@@ -1,3 +1,4 @@
+#![allow(unused_imports)]
 use crate::api::biomes::Biomes;
 use crate::api::blocks::Blocks;
 use crate::api::enchantments::Enchantments;
@@ -6,7 +7,6 @@ use crate::api::foods::Foods;
 use crate::api::items::Items;
 use crate::api::loot::Loot;
 use crate::api::recipes::Recipes;
-use crate::api::versions::latest_stable;
 use crate::models::version::Version;
 use crate::DataResult;
 use std::sync::Arc;
@@ -28,7 +28,6 @@ mod versions;
 use crate::api::protocol::Protocol;
 pub use biomes::*;
 pub use blocks::*;
-pub use enchantments::*;
 pub use entities::*;
 pub use foods::*;
 pub use items::*;
